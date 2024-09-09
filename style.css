@@ -1,8 +1,8 @@
-/* Apply a background image that fills the screen */
+/* ----------------------------Login-----------------------------*/
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: url('traktor papa imel.jpeg') no-repeat center center fixed;
-  background-size: cover; /* Ensures the background image covers the entire viewport */
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,9 +11,9 @@ body {
   padding: 0;
 }
 
-/* Style the login container with partial transparency */
+
 .login-container {
-  background-color: rgba(255, 255, 255, 0.85); /* White with 85% opacity */
+  background-color: rgba(255, 255, 255, 0.85);
   padding: 30px;
   border-radius: 12px;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
@@ -22,12 +22,11 @@ body {
   transition: all 0.3s ease;
 }
 
-/* Add hover effect to container */
 .login-container:hover {
   box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.2);
 }
 
-/* Header styling */
+
 h2 {
   text-align: center;
   color: #333;
@@ -36,21 +35,21 @@ h2 {
   letter-spacing: 1px;
 }
 
-/* Form styling */
+
 form {
   display: flex;
   flex-direction: column;
-  gap: 15px; /* Adds uniform spacing between elements */
+  gap: 15px;
 }
 
-/* Label styling */
+
 label {
   color: #555;
   font-weight: bold;
   font-size: 14px;
 }
 
-/* Input fields styling */
+
 input[type="text"], input[type="password"] {
   padding: 12px;
   border: 1px solid #ddd;
@@ -60,13 +59,13 @@ input[type="text"], input[type="password"] {
   transition: border-color 0.3s ease;
 }
 
-/* Focus effect for input fields */
+
 input[type="text"]:focus, input[type="password"]:focus {
   border-color: #74ebd5;
   outline: none;
 }
 
-/* Submit button styling */
+
 input[type="submit"] {
   padding: 12px;
   background-color: #28a745;
@@ -79,13 +78,12 @@ input[type="submit"] {
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-/* Hover effect for submit button */
 input[type="submit"]:hover {
   background-color: #218838;
   transform: scale(1.05);
 }
 
-/* Responsive design for smaller devices */
+
 @media (max-width: 480px) {
   .login-container {
     padding: 20px;
